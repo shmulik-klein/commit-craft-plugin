@@ -1,4 +1,4 @@
-package com.github.shmulikklein.commitcraftplugin.listeners
+package com.github.shmulikklein.commitcraft.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger

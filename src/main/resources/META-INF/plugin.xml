@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.shmulikklein.commitcraftplugin</id>
-    <name>commit-craft-plugin</name>
+    <id>com.github.shmulikklein.commitcraft</id>
+    <name>commit-craft</name>
     <vendor>shmulik-klein</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -9,10 +9,10 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.shmulikklein.commitcraftplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.github.shmulikklein.commitcraft.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.shmulikklein.commitcraftplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="com.github.shmulikklein.commitcraft.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
 </idea-plugin>

@@ -1,4 +1,4 @@
-package com.github.shmulikklein.commitcraftplugin.toolWindow
+package com.github.shmulikklein.commitcraft.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.shmulikklein.commitcraftplugin.MyBundle
-import com.github.shmulikklein.commitcraftplugin.services.MyProjectService
+import com.github.shmulikklein.commitcraft.MyBundle
+import com.github.shmulikklein.commitcraft.services.MyProjectService
 import javax.swing.JButton
 
 

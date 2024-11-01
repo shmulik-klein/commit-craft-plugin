@@ -1,4 +1,4 @@
-package com.github.shmulikklein.commitcraftplugin
+package com.github.shmulikklein.commitcraft
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

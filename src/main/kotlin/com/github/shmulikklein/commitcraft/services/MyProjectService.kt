@@ -1,9 +1,9 @@
-package com.github.shmulikklein.commitcraftplugin.services
+package com.github.shmulikklein.commitcraft.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.shmulikklein.commitcraftplugin.MyBundle
+import com.github.shmulikklein.commitcraft.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {
